@@ -15,6 +15,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156190471-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156190471-1');
+    </script>
 
     <link rel="icon" href="img/favicon.png" type="image/png">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -153,11 +162,11 @@
                                 </div>
                                 <div class="form-group  col-md-12">
                                     <input name="email" ng-model="user.email" type="text" class="form-control" required placeholder="Email" ng-pattern="eml_add" autocomplete="off" id="eml">
-                                   
+
                                 </div>
                                 <div class="form-group  col-md-12">
                                     <input name="mobile" ng-model="user.mobile" required placeholder="Your Mobile*" id="c_num" ng-pattern="ph_numbr" autocomplete="off" rows="1" class="form-control ">
-                                  
+
                                 </div>
                                 <div class="form-group col-md-12">
                                     <div class="form-group">
